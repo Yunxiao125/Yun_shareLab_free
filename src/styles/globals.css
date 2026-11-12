@@ -1,0 +1,15 @@
+/* src/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+html, body {
+  min-height: 100%;
+  font-family: theme('fontFamily.body');
+  background-color: #F7FFF7; /* neutral */
+}
+
+* {
+  box-sizing: border-box;
+}
